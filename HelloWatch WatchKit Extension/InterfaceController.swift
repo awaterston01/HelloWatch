@@ -21,7 +21,7 @@ class InterfaceController: WKInterfaceController {
     
     @IBAction func buttonTapped() {
         if (isHello) {
-            displayLabel.setText("See you later!");
+            displayLabel.setText("See you later");
         }
         else {
             displayLabel.setText("Hello World!");
